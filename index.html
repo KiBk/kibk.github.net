@@ -136,7 +136,7 @@
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
             <div data-date="November 2019 – now">
-                <h3><a href="https://nordicsemi.no/" class="deco-none">Nordic Semiconductors</a> (Trondheim)</h3>
+                <h3><a href="https://nordicsemi.no/" class="deco-none">Nordic Semiconductor</a> (Trondheim)</h3>
                 <h4>R&D Engineer</h4>
                 <p>
                     Digital design of hardware IPs used in Nordic's MCUs
@@ -291,7 +291,7 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <a href="https://emecsthon.eit.uni-kl.de/">
+                        <a href="https://github.com/kibk/emecsthon/">
                             <img src="images/emecsthon300x300.png"/>
                         </a>
                     </div>
@@ -321,12 +321,18 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/masterthesis-diagram.png" />
+                        <a href="https://drive.google.com/file/d/1woJioKqtuR5omKrZ7W8tEevvkvEQ1-dP/view?usp=sharing">
+                            <img src="images/masterthesis-diagram.png" />
+                        </a>
                     </div>
                     <div class="project-info">
                         <h3>High-level verification environment</h3>
                         <p>
-                            
+                            The idea is to accelerate the RTL simulation of any memory controller. Such simulations are
+                            cycle accurate, but they require HDL source code for all components of the computation
+                            system. It is not always feasible, plus it is slow. Hence, we merged an RTL memory controller
+                            with a high-level simulation environment using SystemC and TLM, which resulted in more than
+                            100x faster simulation, while keeping cycle-accuracy
                         </p>
                         <p>
                             <a href="https://drive.google.com/file/d/1woJioKqtuR5omKrZ7W8tEevvkvEQ1-dP/view?usp=sharing">PDF</a>
@@ -336,62 +342,55 @@
                     </div>
                 </div>
 
-                <!--<div class="project shadow-large">-->
-                <!--<div class="project-image">-->
-                <!--<img src="images/fpga300x300.jpg" />-->
-                <!--</div>-->
-                <!--&lt;!&ndash; End .project-image &ndash;&gt;-->
-                <!--<div class="project-info">-->
-                <!--<h3>EMECS-thon 2019</h3>-->
-                <!--<p>-->
-                <!--Implementing a node of a distributed system consisting of a CPU, Instruction Memory, Data Memory, LCD Controller for the on-board LCD, PS2 Keyboard Controller, and a CAN Controller on a Xilinx FPGA board.-->
-                <!--</p>-->
-                <!--<p>-->
-                <!--Synchronizing 16 bytes of data that represent the ASCII characters that appear on the LCD after a key press on the Keyboard, where all components are con- nected using a Wishbone Bus with the CPU acting as its master.-->
-                <!--</p>-->
-                <!--&lt;!&ndash;<a href="#">View Project</a>&ndash;&gt;-->
-                <!--</div>-->
-                <!--&lt;!&ndash; End .project-info &ndash;&gt;-->
-                <!--</div>-->
-
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/fpga300x300.jpg" />
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Client in a Distributed System</h3>
                         <p>
-                            Implementing a node of a distributed system consisting of a CPU, Instruction Memory, Data Memory, LCD Controller for the on-board LCD, PS2 Keyboard Controller, and a CAN Controller on a Xilinx FPGA board.
+                            Implementing a node of a distributed system consisting of a CPU, Instruction Memory,
+                            Data Memory, LCD Controller for the on-board LCD, PS2 Keyboard Controller, and a
+                            CAN Controller on a Xilinx FPGA board.
                         </p>
                         <p>
-                            Synchronizing 16 bytes of data that represent the ASCII characters that appear on the LCD after a key press on the Keyboard, where all components are con- nected using a Wishbone Bus with the CPU acting as its master.
+                            Synchronizing 16 bytes of data that represent the ASCII characters that appear
+                            on the LCD after a key press on the Keyboard, where all components are connected
+                            using a Wishbone Bus with the CPU acting as its master.
                         </p>
-                        <!--<a href="#">View Project</a>-->
+                        <p>
+                            Sadly we are not allowed to publish the source-code =(
+                        </p>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
 
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/karaoke300x300.jpg" />
                     </div>
-                    <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Karaoke System</h3>
                         <p>
-                            Developing a digital SoC for Karaoke, based on the FPGA and ARM processor. System included two audio inputs, audio output, video (VGA) output, set of switches and SD card. One of the audio outputs was modified with a set of filters and added to the second input (Human voice + external music source). ARM processor was responsible for reading audio files from the SD card (internal audio source). All parameters (Status of filters, volume and music source) were displayed on the screen using VGA.
+                            Developing a digital SoC for Karaoke, based on the FPGA and ARM processor.
+                            System included two audio inputs, audio output, video (VGA) output, set of
+                            switches and SD card. One of the audio outputs was modified with a set of
+                            filters and added to the second input (Human voice + external music source).
+                            ARM processor was responsible for reading audio files from the SD card
+                            (internal audio source). All parameters (Status of filters, volume and music source)
+                            were displayed on the screen using VGA.
                         </p>
-                        <!--<a href="#">View Project</a>-->
+                        <p>
+                            <a href="https://photos.app.goo.gl/M1pCf78AEfeiDRBs6">Short Video</a>
+                            |
+                            No source-code either
+                        </p>
                     </div>
-                    <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
+
             </div>
         </div>
     </div>
-    <!-- End #projects -->
+
 
     <div class="optional-section">
         <h2 class="heading">Roadmap of my professional skills</h2>
